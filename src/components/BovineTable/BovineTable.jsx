@@ -39,7 +39,7 @@ export default function BovineTable() {
 
   useEffect(()=> {
     dispatch(getAllBovines(search, bovine, device));
-  }, [search, bovine, device])
+  }, [search, bovine, device, dispatch])
  
   function handleChange(e) {
     e.preventDefault()
