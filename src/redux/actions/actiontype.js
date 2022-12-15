@@ -10,5 +10,5 @@ export const CLEAR_DATA = "CLEAR_DATA";
 export const SELECT_PAGE = "SELECT_PAGE"
 
 // BASE URL
-export const BASE_URL_FRONT = 'http://localhost:3000';
+export const BASE_URL_FRONT = 'bovinos-back-deploy-production.up.railway.app';
 export const BASE_URL = 'http://localhost:4001';
